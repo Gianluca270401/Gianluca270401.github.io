@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript parte3</title>
+    <script  type="text/javascript">
+
+      //¿Cuantas variables necesito?
+    //2
+    //¿Que tipos de datos necesito?
+    //nom , cont
+    //¿Que variables voy a leer?
+    //nom
+    //definiendo e incializando variables
+    var nom="" ,    cont = 0;
+    //capturando valores
+    nom=prompt("Ingrese un nombre ");
+    //while
+    while(cont<5){
+        document.write("Hola como estas "+nom+ "<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    //do while
+    cont=0;
+    do{
+        document.write("Hola como estas "+nom+ "<br>");
+        cont++
+    }while(cont<5);
+    document.write("<hr>");
+    //for
+    for( cont=0;cont<5;cont++){
+        document.write("Hola como estas "+nom+ "<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+
+//Ejemplo2
+
+ //¿Cuantas variables necesito?
+    //2
+    //¿Que tipos de datos necesito?
+    //entero
+    //¿Que variables voy a leer?
+    //can
+    //definiendo e incializando variables
+    var can=0 ,    cont = 0;
+//capturando valores
+can=parseInt(prompt("Ingrese la cantidad de numeros :"));
+ //while
+ while(cont<can){
+        document.write(cont+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    //do while
+    cont=0;
+    do{
+        document.write(cont+"<br>");
+        cont++
+    }while(cont<can);
+    document.write("<hr>");
+    //for
+    for( cont=0;cont<can;cont++){
+        document.write("<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

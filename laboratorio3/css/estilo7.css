@@ -1,0 +1,53 @@
+* {
+  padding: 10px;
+}
+
+body {
+  background-color: coral;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+.parrafocolor {
+  color: yellowgreen;
+}
+.parrafoderecha {
+  text-align: right;
+}
+.parrafocentro {
+  text-align: center;
+}
+.parrafoizquierda {
+  text-align: left;
+}
+.parrafojustificado {
+  text-align: justify;
+}
+.parrafosuperior {
+  vertical-align: top;
+}
+.parrafomedio {
+  vertical-align: middle;
+}
+.parrafoinferior {
+  vertical-align: bottom;
+}
+.parrafosobrelinea {
+  text-decoration: overline;
+}
+.parrafosubrayado {
+  text-decoration: underline;
+}
+.parrafotachado {
+  text-decoration: line-through;
+}
+.parrafomayuscula {
+  text-transform: uppercase;
+}
+.parrafominuscula {
+  text-transform: lowercase;
+}
+.parrafonombrepropio {
+  text-transform: capitalize;
+}

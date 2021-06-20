@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script parte 3</title>
+    <script type="text/javascript">
+    //conectores logicos 
+    //permiten unir 2 o mas condiciones dentro de un if
+    //conector logico y
+    //Es verdadero si todas las condicones son verdaderas 
+    //sintaxis 
+    //if(condicion1 || condicon2)-> condicion1=V o condicon2=F -> V
+    //if(candicion1 || condicion2) -> condicon1=V o condicion2=F -> V
+    //if(condicion1 || condicion2) -> condicion1=F o condicion2=F ->F
+
+    //Ejemplo 1 
+    //Desarrollar una aplicacion que permita calcular el sueldo final
+
+
+    //¿Cuantas variables necesito?
+    //5
+    //¿Que tipo de datos necesito?
+    //sb, bon, sf, cat, tur
+    //¿Que variables voy a leer?
+    //sb, cat, tur
+    //definiendo e inicializando variables
+    var sb=0, bon=0, sf=0, cat=0, tur="";
+    //capturando valores 
+    sb=parsefloat(prompt ("Ingrese el sueldo basico"));
+    cat=parseInt(prompt("Ingrese la categoria"));
+    tur=prompt("Ingrese el turno : [m] o [t] o [n]");
+    //condicion
+    if(cat==2 && (tur=="m" || tur=="M")){
+        bon=sb*0.07;
+
+    }else{bon=0
+    }
+    //realizando operaciones
+    sf=sb+bon;
+    //mostrando resultados
+    alert("El sueldo basico es : " +sb);
+    alert("La bonificacion es : " +bon);
+    alert("El sueldo finales : " +sf);
+
+    //Ejemplo2
+    //Desarrollar una aplicacion que permita que ingresar 3 numeros y luego calcular
+    //cual es mayor y cual es el menor. Mostrar el numero mayor y el numero menor 
+    //¿Que tipo dato necesito?
+    //Entero
+    //¿Cuales son las variabels que necesito?
+
+    
+    
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

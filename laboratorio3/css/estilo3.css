@@ -1,0 +1,113 @@
+/*Agregamos colores de fondo para las etiquetas a la maquetacion */
+body {
+  background-color: blueviolet;
+}
+.contenedor {
+  background-color: coral;
+}
+header {
+  background-color: darkseagreen;
+}
+nav {
+  background-color: green;
+}
+
+section {
+  background-color: rgb(237, 232, 241);
+}
+
+footer {
+  background-color: firebrick;
+}
+/*Agregamos un tipo de borde dotted */
+.borde1 {
+  border-style: dotted;
+} /*Agregamos un tipo de borde dashed */
+.borde2 {
+  border-style: dashed;
+} /*Agregamos un tipo de borde solid */
+.borde3 {
+  border-style: solid;
+} /*Agregamos un tipo de borde double */
+.borde4 {
+  border-style: double;
+}
+/*Agregamos un tipo de borde goove */
+.borde5 {
+  border-style: groove;
+}
+/*Agregamos un tipo de borde ridge */
+.borde6 {
+  border-style: ridge;
+}
+/*Agregamos un tipo de borde inset */
+.borde7 {
+  border-style: inset;
+}
+/*Agregamos un tipo de borde outset */
+.borde8 {
+  border-style: outset;
+}
+/*Agregamos un tipo de borde none */
+.borde9 {
+  border-style: none;
+}
+/*Agregamos un tipo de borde hidden */
+.borde10 {
+  border-style: hidden;
+}
+/* Agregamos un borde de tipo combinado 
+cuando realizamos bordes combiados la sintaxis seria la siguiente:
+ border-style: (Arriba y Abajo) (Izquierda y Derecha);
+  border-style: (Arriba) (Izquierda y Derecha) (Abajo);
+   border-style: (Arriba) (Derecha) (Abajo) (Izquierda);
+*/
+.borde11 {
+  border-style: dotted dashed solid double;
+}
+.borde12 {
+  border-style: dotted;
+  border-width: 10px;
+}
+
+.borde13 {
+  border-style: dashed;
+  border-width: medium;
+}
+
+.borde14 {
+  border-style: solid;
+  border-width: 10px 15px 4px 7px;
+}
+.borde15 {
+  border-style: solid;
+  border-color: lightcoral;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
+.borde16 {
+  border-style: dashed;
+  border-color: lightgreen rebeccapurple aquamarine blue;
+}
