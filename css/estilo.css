@@ -1,0 +1,50 @@
+* {
+  background-color: darkgrey;
+}
+body {
+  margin: 0;
+}
+ul {
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: gainsboro;
+  position: fixed;
+
+  overflow: auto;
+  border: 1px solid #555;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.activo {
+  background-color: blue;
+  color: white;
+}
+li {
+  text-align: center;
+  border: 1px solid #555;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+img {
+  width: 300px;
+  margin: auto;
+  display: block;
+}
+.imagen img {
+  float: right;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+}
